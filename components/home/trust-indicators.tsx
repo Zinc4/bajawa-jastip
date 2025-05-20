@@ -5,27 +5,24 @@ export const runtime = "edge";
 export default function TrustIndicators() {
   const testimonials = [
     {
-      name: "Dewi Suryani",
+      name: "@tasya_nau",
       role: "Small Business Owner",
-      content:
-        "Bajawa Jastip has been instrumental in helping my online business grow. Their reliable delivery service has earned me many repeat customers.",
+      content: "Sangat ramah dikantong.",
       rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
     {
-      name: "Rudi Hartono",
+      name: "@hendriqueantonio",
       role: "IT Professional",
-      content:
-        "I regularly ship electronics with Bajawa Jastip and have never had any issues. Their specialized packaging ensures everything arrives in perfect condition.",
+      content: "Recommended...!!",
       rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
     {
-      name: "Lina Wijaya",
+      name: "@clarambate_",
       role: "Legal Consultant",
-      content:
-        "For important documents, I trust only Bajawa Jastip. Their document handling service is secure, confidential, and always on time.",
-      rating: 4,
+      content: "Murah dan bertanggung jawab.",
+      rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
   ];
@@ -42,10 +39,12 @@ export default function TrustIndicators() {
     <div className="bg-gray-50 py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Trusted by Thousands</h2>
+          <h2 className="text-3xl font-bold mb-4">
+            Dipercaya oleh Ribuan Orang
+          </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. See what our customers and partners
-            have to say about our services.
+            Jangan hanya percaya pada apa yang kami katakan. Lihat apa yang
+            pelanggan dan mitra kami katakan tentang layanan kami.
           </p>
         </div>
 
@@ -77,7 +76,7 @@ export default function TrustIndicators() {
                   </div>
                   <div>
                     <h4 className="font-semibold">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.role}</p>
+                    {/* <p className="text-sm text-gray-500">{testimonial.role}</p> */}
                   </div>
                 </div>
               </CardContent>

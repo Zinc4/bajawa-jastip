@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <div className="relative h-10 w-10 mr-2 bg-white rounded-full p-1">
                 <Image
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/logo.png?height=40&width=40"
                   alt="Bajawa Jastip Logo"
                   fill
                   className="object-contain"
@@ -24,12 +24,12 @@ export default function Footer() {
               <span className="text-xl font-bold">Bajawa Jastip</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Your trusted delivery service partner across Indonesia. Reliable,
-              efficient, and personalized delivery solutions.
+              Mitra layanan pengiriman terpercaya Anda di seluruh Indonesia.
+              Solusi pengiriman yang andal, efisien, dan personal.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com/bajawajastip"
+                href="https://www.facebook.com/people/Bjw-Jastip/100088352374645/?_rdr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-blue-600 text-white p-2 rounded-full"
@@ -63,7 +63,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com/bajawajastip"
+                href="https://www.instagram.com/bjwjastip/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-pink-600 text-white p-2 rounded-full"
@@ -82,7 +82,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6287850544899"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 text-white p-2 rounded-full"
@@ -167,16 +167,24 @@ export default function Footer() {
               <li className="flex">
                 <MapPin className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
                 <span className="text-gray-400">
-                  Jalan Utama No. 123
+                  Semampir Selatan Gang 2a, Nomor 8 Kecamatan Sukolilo
                   <br />
-                  Jakarta Pusat, 12345
+                  Kel. Medokan Semampir
                   <br />
-                  Indonesia
+                  Surabaya
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+62 812 3456 7890</span>
+                <span className="text-gray-400">
+                  Admin Timor : 0821-4660-4403
+                </span>
+              </li>
+              <li className="flex">
+                <Phone className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
+                <span className="text-gray-400">
+                  Admin Flores : 0878-5054-4899
+                </span>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 text-primary mr-3 flex-shrink-0" />

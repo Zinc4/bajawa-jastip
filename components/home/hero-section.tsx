@@ -18,16 +18,16 @@ export default function HeroSection() {
       <div className="relative z-10 container mx-auto px-4 py-24 md:py-32">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-            Reliable Delivery Services Across Indonesia
+            Layanan Pengiriman Terpercaya dan Tercepat di Indonesia
           </h1>
           <p className="text-xl text-white/90 mb-8">
-            From regular packages to electronics and important documents, we
-            deliver with care and efficiency. Trust Bajawa Jastip for all your
-            shipping needs.
+            Kirim paket, elektronik, dokumen, hingga pesanan online dengan aman
+            dan cepat bersama Bajawa Jastip. Percayakan pengiriman Anda pada
+            kami!
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" asChild>
-              <Link href="/contact">Jastip Now!</Link>
+              <Link href="/contact">Jastip Sekarang!</Link>
             </Button>
             <Button
               variant="outline"
@@ -35,7 +35,7 @@ export default function HeroSection() {
               className="bg-white/10 text-white border-white/20 hover:bg-white/20"
               asChild
             >
-              <Link href="/services">Our Services</Link>
+              <Link href="/services">Layanan Kami</Link>
             </Button>
           </div>
         </div>

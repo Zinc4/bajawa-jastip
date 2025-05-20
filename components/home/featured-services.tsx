@@ -15,24 +15,24 @@ export const runtime = "edge";
 export default function FeaturedServices() {
   const services = [
     {
-      title: "Regular Delivery",
+      title: "Paket Olshop",
       description:
         "Reliable delivery service for packages of all sizes across Indonesia.",
       image: "/placeholder.svg?height=300&width=500",
       link: "/services#regular-delivery",
     },
     {
-      title: "Electronics Shipping",
+      title: "Barang Elektronik",
       description:
         "Specialized service for safe transport of electronic devices and equipment.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/elektronik.jpg?height=300&width=500",
       link: "/services#electronics-shipping",
     },
     {
-      title: "Document Handling",
+      title: "Dokumen",
       description:
         "Secure and confidential delivery of important documents and paperwork.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/dokumen.jpg?height=300&width=500",
       link: "/services#document-handling",
     },
   ];
@@ -40,10 +40,11 @@ export default function FeaturedServices() {
   return (
     <div className="container mx-auto px-4">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+        <h2 className="text-3xl font-bold mb-4">Layanan Kami</h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          We offer a range of delivery services tailored to meet your specific
-          needs, ensuring your items reach their destination safely and on time.
+          Kami menawarkan berbagai layanan pengiriman yang disesuaikan untuk
+          memenuhi kebutuhan spesifik Anda, memastikan barang Anda mencapai
+          tujuan dengan aman dan tepat waktu.
         </p>
       </div>
 
@@ -60,7 +61,7 @@ export default function FeaturedServices() {
             </div>
             <CardHeader>
               <CardTitle>{service.title}</CardTitle>
-              <CardDescription>{service.description}</CardDescription>
+              {/* <CardDescription>{service.description}</CardDescription> */}
             </CardHeader>
             <CardFooter>
               <Button variant="outline" className="w-full" asChild>

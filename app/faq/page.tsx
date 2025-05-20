@@ -1,14 +1,26 @@
-import type { Metadata } from "next"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Search } from "lucide-react"
+import type { Metadata } from "next";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Search } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Frequently asked questions about Bajawa Jastip services, shipping, and policies.",
-}
+  description:
+    "Frequently asked questions about Bajawa Jastip services, shipping, and policies.",
+};
 
 export default function FAQPage() {
   const faqCategories = [
@@ -112,17 +124,25 @@ export default function FAQPage() {
         },
       ],
     },
-  ]
+  ];
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8 text-center">Frequently Asked Questions</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">
+        Frequently Asked Questions
+      </h1>
 
       <div className="max-w-2xl mx-auto mb-12">
         <div className="relative">
-          <Input type="text" placeholder="Search for answers..." className="pl-10" />
+          <Input
+            type="text"
+            placeholder="Search for answers..."
+            className="pl-10"
+          />
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
-          <Button className="absolute right-1 top-1/2 transform -translate-y-1/2">Search</Button>
+          <Button className="absolute right-1 top-1/2 transform -translate-y-1/2">
+            Search
+          </Button>
         </div>
       </div>
 
@@ -131,13 +151,21 @@ export default function FAQPage() {
           <Card key={index}>
             <CardHeader>
               <CardTitle>{category.title}</CardTitle>
-              <CardDescription>Find answers to common questions about {category.title.toLowerCase()}.</CardDescription>
+              <CardDescription>
+                Find answers to common questions about{" "}
+                {category.title.toLowerCase()}.
+              </CardDescription>
             </CardHeader>
             <CardContent>
               <Accordion type="single" collapsible className="w-full">
                 {category.faqs.map((faq, faqIndex) => (
-                  <AccordionItem key={faqIndex} value={`item-${index}-${faqIndex}`}>
-                    <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+                  <AccordionItem
+                    key={faqIndex}
+                    value={`item-${index}-${faqIndex}`}
+                  >
+                    <AccordionTrigger className="text-left">
+                      {faq.question}
+                    </AccordionTrigger>
                     <AccordionContent>
                       <div className="pt-2 pb-4">{faq.answer}</div>
                     </AccordionContent>
@@ -152,14 +180,13 @@ export default function FAQPage() {
       <div className="mt-16 text-center">
         <h2 className="text-2xl font-semibold mb-4">Still have questions?</h2>
         <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-          If you couldn't find the answer to your question, please don't hesitate to contact our customer support team.
-          We're here to help!
+          If you couldn't find the answer to your question, please don't
+          hesitate to contact our customer support team. We're here to help!
         </p>
         <Button asChild>
-          <a href="/contact">Contact Us</a>
+          <a href="/contact">Hubungi Kami</a>
         </Button>
       </div>
     </div>
-  )
+  );
 }
-

@@ -34,13 +34,13 @@ export default function Header() {
             <Link href="/" className="flex items-center">
               <div className="relative h-10 w-10 mr-2">
                 <Image
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/logo.png?height=40&width=40"
                   alt="Bajawa Jastip Logo"
                   fill
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold text-primary">
+              <span className="text-xl font-bold text-orange-500">
                 Bajawa Jastip
               </span>
             </Link>
@@ -52,8 +52,8 @@ export default function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.href) ? "text-primary" : "text-gray-700"
+                className={`text-sm font-medium transition-colors hover:text-orange-500 ${
+                  isActive(item.href) ? "text-orange-500" : "text-gray-700"
                 }`}
               >
                 {item.name}
@@ -68,7 +68,7 @@ export default function Header() {
               </Button>
             </Link>
             <Link href="/contact">
-              <Button size="sm">Jastip Now!</Button>
+              <Button size="sm">Jastip Sekarang!</Button>
             </Link>
           </div>
 
@@ -97,7 +97,7 @@ export default function Header() {
                           className="object-contain"
                         />
                       </div>
-                      <span className="text-lg font-bold text-primary">
+                      <span className="text-lg font-bold text-orange-500">
                         Bajawa Jastip
                       </span>
                     </Link>
@@ -117,7 +117,7 @@ export default function Header() {
                         href={item.href}
                         className={`px-2 py-1 text-base font-medium rounded-md transition-colors hover:bg-gray-100 ${
                           isActive(item.href)
-                            ? "text-primary bg-gray-100"
+                            ? "text-orange-500 bg-gray-100"
                             : "text-gray-700"
                         }`}
                         onClick={() => setIsOpen(false)}
@@ -133,7 +133,7 @@ export default function Header() {
                       </Button>
                     </Link>
                     <Link href="/contact" onClick={() => setIsOpen(false)}>
-                      <Button className="w-full">Jastip Now!</Button>
+                      <Button className="w-full">Jastip Sekarang!</Button>
                     </Link>
                   </div>
                 </div>

@@ -1,12 +1,12 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import Header from "@/components/layout/header"
-import Footer from "@/components/layout/footer"
-import { Toaster } from "@/components/ui/toaster"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Header from "@/components/layout/header";
+import Footer from "@/components/layout/footer";
+import { Toaster } from "@/components/ui/toaster";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -15,7 +15,13 @@ export const metadata: Metadata = {
   },
   description:
     "Bajawa Jastip provides reliable delivery services including regular delivery, electronics shipping, and document handling across Indonesia.",
-  keywords: ["jastip", "delivery service", "indonesia shipping", "document handling", "electronics shipping"],
+  keywords: [
+    "jastip",
+    "delivery service",
+    "indonesia shipping",
+    "document handling",
+    "electronics shipping",
+  ],
   authors: [{ name: "Bajawa Jastip" }],
   creator: "Bajawa Jastip",
   openGraph: {
@@ -30,13 +36,13 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-    generator: 'v0.dev'
-}
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -67,7 +73,14 @@ export default function RootLayout({
               },
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
-                dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                ],
                 opens: "08:00",
                 closes: "18:00",
               },
@@ -87,9 +100,7 @@ export default function RootLayout({
         <Toaster />
       </body>
     </html>
-  )
+  );
 }
 
-
-
-import './globals.css'
+import "./globals.css";
