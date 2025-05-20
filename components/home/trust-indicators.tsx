@@ -9,21 +9,21 @@ export default function TrustIndicators() {
       role: "Small Business Owner",
       content: "Sangat ramah dikantong.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/user.png?height=100&width=100",
     },
     {
       name: "@hendriqueantonio",
       role: "IT Professional",
       content: "Recommended...!!",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/user.png?height=100&width=100",
     },
     {
       name: "@clarambate_",
       role: "Legal Consultant",
       content: "Murah dan bertanggung jawab.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "/user.png?height=100&width=100",
     },
   ];
 
@@ -84,7 +84,7 @@ export default function TrustIndicators() {
           ))}
         </div>
 
-        <div>
+        {/* <div>
           <h3 className="text-xl font-semibold text-center mb-8">
             Our Trusted Partners
           </h3>
@@ -103,7 +103,7 @@ export default function TrustIndicators() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

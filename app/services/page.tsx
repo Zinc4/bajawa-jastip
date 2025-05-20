@@ -26,7 +26,7 @@ export default function ServicesPage() {
       title: "Paket Olshop",
       description:
         "Reliable delivery service for packages of all sizes across Indonesia.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/olshop.png?height=400&width=600",
       features: [
         "Door-to-door delivery",
         "Package tracking",
@@ -82,7 +82,7 @@ export default function ServicesPage() {
       title: "Perlengkapan Dekorasi",
       description:
         "Secure and confidential delivery of important documents and paperwork.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/dekorasi.jpg?height=400&width=600",
       features: [
         "Confidential handling",
         "Signature confirmation",

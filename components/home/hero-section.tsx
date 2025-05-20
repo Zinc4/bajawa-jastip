@@ -8,7 +8,7 @@ export default function HeroSection() {
     <div className="relative">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/placeholder.svg?height=800&width=1600"
+          src="/truck.jpg?height=800&width=1600"
           alt="Delivery service"
           fill
           className="object-cover brightness-50"

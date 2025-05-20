@@ -16,7 +16,7 @@ export default function Header() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Gallery", href: "/gallery" },
+    // { name: "Gallery", href: "/gallery" },
     { name: "Blog", href: "/blog" },
     { name: "FAQ", href: "/faq" },
     { name: "Contact", href: "/contact" },
@@ -91,7 +91,7 @@ export default function Header() {
                     >
                       <div className="relative h-8 w-8 mr-2">
                         <Image
-                          src="/placeholder.svg?height=32&width=32"
+                          src="/logo.png?height=32&width=32"
                           alt="Bajawa Jastip Logo"
                           fill
                           className="object-contain"

@@ -18,7 +18,7 @@ export default function FeaturedServices() {
       title: "Paket Olshop",
       description:
         "Reliable delivery service for packages of all sizes across Indonesia.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/olshop.png?height=300&width=500",
       link: "/services#regular-delivery",
     },
     {
