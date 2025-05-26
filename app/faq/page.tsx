@@ -25,105 +25,104 @@ export const metadata: Metadata = {
 export default function FAQPage() {
   const faqCategories = [
     {
-      title: "General Questions",
+      title: "Pertanyaan Umum",
       faqs: [
         {
-          question: "What is Bajawa Jastip?",
+          question: "Apa itu Bajawa Jastip",
           answer:
-            "Bajawa Jastip is a trusted delivery service provider in Indonesia, offering regular delivery, electronics shipping, and document handling services. We connect people and businesses across Indonesia through reliable, efficient, and personalized delivery solutions.",
+            "Bajawa Jastip adalah jasa yang ditawarkan oleh kami dalam penitipan barang barang online shop, dokumen, dan barang lainnya, yang dikirim dari Pulau Jawa dengan tujuan ke Daratan Timor dan Flores.",
         },
         {
-          question: "Where does Bajawa Jastip operate?",
+          question: "Dimana Bajawa Jastip beroperasi?",
           answer:
-            "We operate throughout Indonesia, with our main offices in Jakarta, Surabaya, Bandung, Bali, and Makassar. We deliver to all major cities and many remote areas across the country.",
+            "Kami beroperasi di Surabaya, dengan kantor pusat beralamat Semampir Selatan Gang 2a, Nomor 8 Kecamatan Sukolilo,Kel. Medokan Semampir. Kami melayani pengiriman dari Surabaya ke Bajawa, Timor dan Flores.",
         },
+        // {
+        //   question: "How can I track my package?",
+        //   answer:
+        //     "You can track your package by entering your tracking number on our website or mobile app. You can also receive tracking updates via SMS or email by signing up for notifications during the booking process.",
+        // },
+        // {
+        //   question: "What are your business hours?",
+        //   answer:
+        //     "Our customer service team is available Monday to Friday from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 3:00 PM. Our delivery operations run 24/7 to ensure timely deliveries.",
+        // },
+      ],
+    },
+    {
+      title: "Pengiriman & Pengantaran",
+      faqs: [
+        // {
+        //   question: "Berapa lama waktu pengirimannya?",
+        //   answer:
+        //     "Delivery times vary depending on the destination and service type. Standard delivery within major cities typically takes 1-3 business days, while delivery to remote areas may take 3-7 business days. Express delivery options are available for faster service.",
+        // },
+        // {
+        //   question: "Berapa berat dan ukuran maksimum untuk paket?",
+        //   answer:
+        //     "For regular delivery, we accept packages up to 30kg and with dimensions not exceeding 100cm x 100cm x 100cm. For larger or heavier items, please contact our customer service for special arrangements.",
+        // },
+        // {
+        //   question: "Do you offer international shipping?",
+        //   answer:
+        //     "Currently, we focus on domestic shipping within Indonesia. For international shipping needs, we recommend partnering with our international shipping partners. Please contact our customer service for more information.",
+        // },
         {
-          question: "How can I track my package?",
-          answer:
-            "You can track your package by entering your tracking number on our website or mobile app. You can also receive tracking updates via SMS or email by signing up for notifications during the booking process.",
-        },
-        {
-          question: "What are your business hours?",
-          answer:
-            "Our customer service team is available Monday to Friday from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 3:00 PM. Our delivery operations run 24/7 to ensure timely deliveries.",
+          question: "Bagaimana biaya pengiriman dihitung?",
+          answer: "Biaya pengiriman dihitung berdasarkan berat barang (kg)",
         },
       ],
     },
     {
-      title: "Shipping & Delivery",
+      title: "Layanan & Harga",
       faqs: [
         {
-          question: "How long does delivery take?",
+          question: "Layanan apa saja yang ditawarkan Bajawa Jastip?",
           answer:
-            "Delivery times vary depending on the destination and service type. Standard delivery within major cities typically takes 1-3 business days, while delivery to remote areas may take 3-7 business days. Express delivery options are available for faster service.",
+            "Kami menawarkan berbagai layanan pengiriman: Pengiriman paket olshop, Pengiriman barang elektronik, Pengiriman perabotan rumah tangga, Pengiriman dokumen, Pengiriman perlengkapan dekorasi dan Pengiriman motor & mobil ",
         },
         {
-          question: "What is the maximum weight and size for packages?",
+          question: "Berapa harga pengiriman barang?",
           answer:
-            "For regular delivery, we accept packages up to 30kg and with dimensions not exceeding 100cm x 100cm x 100cm. For larger or heavier items, please contact our customer service for special arrangements.",
+            "Barang dengan berat kurang dari 1 kg, tetap dihitung 1 kg yaitu Rp15.000,00, Apabila berat barang lebih dari 1 kg maka akan dihitung sesuai beratnya",
         },
-        {
-          question: "Do you offer international shipping?",
-          answer:
-            "Currently, we focus on domestic shipping within Indonesia. For international shipping needs, we recommend partnering with our international shipping partners. Please contact our customer service for more information.",
-        },
-        {
-          question: "How are delivery fees calculated?",
-          answer:
-            "Delivery fees are calculated based on weight, dimensions, distance, and service type. You can get an instant quote by using the calculator on our website or mobile app.",
-        },
+        // {
+        //   question: "Are there any discounts for regular customers?",
+        //   answer:
+        //     "Yes, we offer loyalty programs and volume discounts for regular customers. Business customers can also benefit from special rates and customized service packages. Contact our sales team for more information.",
+        // },
+        // {
+        //   question: "Can I schedule a pickup?",
+        //   answer:
+        //     "Yes, you can schedule a pickup through our website, mobile app, or by calling our customer service. Pickups can be scheduled same-day or in advance, depending on your location and service availability.",
+        // },
       ],
     },
-    {
-      title: "Services & Pricing",
-      faqs: [
-        {
-          question: "What services does Bajawa Jastip offer?",
-          answer:
-            "We offer three main services: Regular Delivery for packages of all sizes, Electronics Shipping for safe transport of electronic devices, and Document Handling for secure delivery of important documents. Each service comes with different features and pricing options.",
-        },
-        {
-          question: "Do you offer insurance for shipments?",
-          answer:
-            "Yes, basic insurance is included with all shipments. For higher-value items, we recommend purchasing additional insurance coverage, which is available during the booking process.",
-        },
-        {
-          question: "Are there any discounts for regular customers?",
-          answer:
-            "Yes, we offer loyalty programs and volume discounts for regular customers. Business customers can also benefit from special rates and customized service packages. Contact our sales team for more information.",
-        },
-        {
-          question: "Can I schedule a pickup?",
-          answer:
-            "Yes, you can schedule a pickup through our website, mobile app, or by calling our customer service. Pickups can be scheduled same-day or in advance, depending on your location and service availability.",
-        },
-      ],
-    },
-    {
-      title: "Policies & Support",
-      faqs: [
-        {
-          question: "What is your cancellation policy?",
-          answer:
-            "Cancellations must be made at least 24 hours before the scheduled pickup time. Cancellation fees may apply for late cancellations. For more details, please refer to our Terms & Conditions.",
-        },
-        {
-          question: "How do I file a claim for a damaged or lost package?",
-          answer:
-            "If your package is damaged or lost, please contact our customer service within 7 days of the expected delivery date. You will need to provide your tracking number and details of the issue. Our team will guide you through the claims process.",
-        },
-        {
-          question: "What items are prohibited from shipping?",
-          answer:
-            "Prohibited items include but are not limited to: illegal substances, hazardous materials, flammable items, perishable goods without proper packaging, live animals, and valuable items such as cash or jewelry unless declared and properly insured. For a complete list, please refer to our Terms & Conditions.",
-        },
-        {
-          question: "How can I contact customer support?",
-          answer:
-            "You can contact our customer support team through multiple channels: phone (+62 812 3456 7890), email (support@bajawajastip.com), live chat on our website, or by visiting one of our offices. Our team is available Monday to Friday from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 3:00 PM.",
-        },
-      ],
-    },
+    // {
+    //   title: "Policies & Support",
+    //   faqs: [
+    //     {
+    //       question: "What is your cancellation policy?",
+    //       answer:
+    //         "Cancellations must be made at least 24 hours before the scheduled pickup time. Cancellation fees may apply for late cancellations. For more details, please refer to our Terms & Conditions.",
+    //     },
+    //     {
+    //       question: "How do I file a claim for a damaged or lost package?",
+    //       answer:
+    //         "If your package is damaged or lost, please contact our customer service within 7 days of the expected delivery date. You will need to provide your tracking number and details of the issue. Our team will guide you through the claims process.",
+    //     },
+    //     {
+    //       question: "What items are prohibited from shipping?",
+    //       answer:
+    //         "Prohibited items include but are not limited to: illegal substances, hazardous materials, flammable items, perishable goods without proper packaging, live animals, and valuable items such as cash or jewelry unless declared and properly insured. For a complete list, please refer to our Terms & Conditions.",
+    //     },
+    //     {
+    //       question: "How can I contact customer support?",
+    //       answer:
+    //         "You can contact our customer support team through multiple channels: phone (+62 812 3456 7890), email (support@bajawajastip.com), live chat on our website, or by visiting one of our offices. Our team is available Monday to Friday from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 3:00 PM.",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
