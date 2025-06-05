@@ -13,7 +13,7 @@ const redIcon = new L.Icon({
 });
 
 export default function Map() {
-  const position: [number, number] = [-7.3065348, 112.7955026];
+  const position: [number, number] = [-7.309348, 112.778919];
 
   return (
     <MapContainer
@@ -28,9 +28,9 @@ export default function Map() {
       />
       <Marker position={position} icon={redIcon}>
         <Popup>
-          <b>Bajawa Jastip Office</b>
+          <b>Bajawa Jastip </b>
           <br />
-          Jalan Utama No. 123, Jakarta Pusat
+          Semampir Selatan Gang 2a, No 8
         </Popup>
       </Marker>
     </MapContainer>
